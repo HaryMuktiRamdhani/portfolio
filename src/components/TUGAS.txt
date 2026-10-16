@@ -1,0 +1,4 @@
+//typing event handler, ada form bisa di fungsiin dan muncul juga ouput nya
+// pelajari mapping data, portfolio dibikin jadi list, data nya muncul di data.ts
+
+responsive, dark mode

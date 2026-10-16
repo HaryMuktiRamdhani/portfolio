@@ -1,0 +1,37 @@
+export default function Skills () {
+    return (
+        <>
+        <section id="skills" className="max-w-6xl mx-auto py-20 px-6">
+
+        <h2 className="text-center text-4xl font-bold text-white">
+          Skills
+        </h2>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-14">
+
+          <div className="bg-white rounded-xl p-6 text-center">
+            <h3 className="font-bold text-lg">Web Development</h3>
+            <p className="text-gray-500 text-sm mt-2">HTML, CSS, JavaScript, React</p>
+          </div>
+
+          <div className="bg-white rounded-xl p-6 text-center">
+            <h3 className="font-bold text-lg">Website</h3>
+            <p className="text-gray-500 text-sm mt-2">create with google sites</p>
+          </div>
+
+          <div className="bg-white rounded-xl p-6 text-center">
+            <h3 className="font-bold text-lg">Design to Code</h3>
+            <p className="text-gray-500 text-sm mt-2">Figma to HTML & Tailwind CSS</p>
+          </div>
+
+          <div className="bg-white rounded-xl p-6 text-center">
+            <h3 className="font-bold text-lg">website designer</h3>
+            <p className="text-gray-500 text-sm mt-2">Figma, Canva, Adobe Ilustrator</p>
+          </div>
+
+        </div>
+
+      </section>
+        </>
+    )
+}

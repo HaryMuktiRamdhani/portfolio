@@ -1,0 +1,48 @@
+import ngoding1Img from "../assets/ngoding1.jpeg";
+export default function About () {
+    return (
+        <>
+          <section id="About" className="max-w-6xl mx-auto py-20 px-6">
+            <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div className="flex justify-center">
+                <div className="relative">
+                  <div className="absolute -top-4 -left-4 w-80 h-80 border-4 border-blue-600 rounded-xl"></div>
+                     <img
+                     src={ngoding1Img}
+                     alt="Hary"
+                     className="relative w-80 h-80 object-cover rounded-xl"/>
+                     </div>
+                  </div>
+
+          <div className="text-white">
+            <h2 className="text-4xl font-bold mb-6">
+              About Me
+            </h2>
+            <p className="text-gray-300 leading-8">
+              Hi! I'm Hary, a software engineering student who enjoys creating responsive websites and modern user interfaces. I love learning new technologies and building projects that solve real-world problems.
+            </p>
+
+            <div className="mt-8 space-y-4">
+              <div className="flex items-center gap-3">
+                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                HTML, CSS, JavaScript
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                TypeScript, Python
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                UI Design Website
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                Figma, Canva, Adobe Ilustrator
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+    )
+}
